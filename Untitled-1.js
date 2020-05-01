@@ -28,4 +28,4 @@
 function makeArray(name, ...args) {
   return args;
 }
-console.log(makeArray("Salman", 1, 2, "6"));
+console.log(makeArray("Umair", 1, 2, "6"));
