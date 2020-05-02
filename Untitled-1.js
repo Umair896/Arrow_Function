@@ -51,3 +51,12 @@
 
 // const { username: myName, age: myAge, qualification: myQlf } = userData;
 // console.log(myName, myAge, myQlf);
+
+//Template Literals
+
+// const myFriendName = "Ameen";
+// // const greeting = "Happy Journey " + myFriendName + ", Have a safe journey ahead.";
+// // console.log(greeting);
+
+// const greeting = `"Happy Journey" ${myFriendName}, "Have a safe journey ahead".`;
+// console.log(greeting);
