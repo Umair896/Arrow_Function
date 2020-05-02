@@ -30,14 +30,24 @@
 // // }
 // // console.log(makeArray("Umair", 1, 2, "Ansari"));
 
-//Destructuring -Array
+// //Destructuring -Array
 
-const myHobbies = ["Cricket", "Badminton", "Carrom"];
+// const myHobbies = ["Cricket", "Badminton", "Carrom"];
 
-// const myHobby1 = myHobbies[0];
-// const myHobby2 = myHobbies[1];
+// // const myHobby1 = myHobbies[0];
+// // const myHobby2 = myHobbies[1];
 
-// console.log(myHobby1,myHobby2);
+// // console.log(myHobby1,myHobby2);
 
-const [myHobby1, myHobby2, myHobby3] = myHobbies;
-console.log(myHobby1, myHobby2, myHobby3);
+// const [myHobby1, myHobby2, myHobby3] = myHobbies;
+// console.log(myHobby1, myHobby2, myHobby3);
+
+//Destructuring - Objects
+// const userData = { username: "Umair", age: 23, qualification: "B.E" };
+// // const myName = userData.username;
+// // const age = userData.age;
+// // const qlf = userData.qualification;
+// // console.log(myName, age, qlf);
+
+// const { username: myName, age: myAge, qualification: myQlf } = userData;
+// console.log(myName, myAge, myQlf);
